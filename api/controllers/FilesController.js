@@ -19,10 +19,10 @@ module.exports = {
         if (err) {
           console.log(err);
         }
-        console.log(profilepic);
+        
         res.status(200).json({ message: "image uploaded", profilepic });
       }
     );
-    console.log(profilepic);
+    
   },
 };
